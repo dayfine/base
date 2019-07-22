@@ -1,0 +1,15 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
+
+go_library(
+    name = "go_default_library",
+    srcs = ["str_cat.go"],
+    importpath = "github.com/dayfine/base/base/strings",
+    visibility = ["//visibility:public"],
+)
+
+go_test(
+    name = "go_default_test",
+    srcs = ["str_cat_test.go"],
+    embed = [":go_default_library"],
+    deps = ["//base/testing:go_default_library"],
+)

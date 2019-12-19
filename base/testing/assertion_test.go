@@ -1,4 +1,4 @@
-package btest
+package btesting
 
 import "testing"
 

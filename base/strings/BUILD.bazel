@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["str_cat.go"],
-    importpath = "github.com/dayfine/base/base/strings",
+    importpath = "github.com/dayfine/base-go/base/strings",
     visibility = ["//visibility:public"],
 )
 

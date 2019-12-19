@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["assertion.go"],
-    importpath = "github.com/dayfine/base/base/testing",
+    importpath = "github.com/dayfine/base-go/base/testing",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_d4l3k_messagediff//:go_default_library",

@@ -1,10 +1,10 @@
-package base
+package strings
 
 import (
 	"math"
 	"testing"
 
-	. "github.com/dayfine/base/base/testing"
+	. "github.com/dayfine/base-go/base/testing"
 )
 
 // https://github.com/abseil/abseil-cpp/blob/master/absl/strings/str_cat_test.cc
